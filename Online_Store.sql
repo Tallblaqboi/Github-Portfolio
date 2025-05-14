@@ -1,6 +1,7 @@
+CREATE DATABASE ONLINE_STORE
+
 use ONLINE_STORE
 
-show tables
 CREATE TABLE Categories 
 (
     category_id INT PRIMARY KEY AUTO_INCREMENT,
