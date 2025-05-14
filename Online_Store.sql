@@ -25,7 +25,6 @@ CREATE TABLE products (
 );
 select * from products
 
-drop table products
 
 CREATE TABLE users 
 (
@@ -77,7 +76,6 @@ CREATE TABLE order_items (
 );
 select * from order_items
 
-drop table order_items
 
 CREATE TABLE shopping_cart (
     cart_item_id INT PRIMARY KEY AUTO_INCREMENT,
@@ -89,7 +87,6 @@ CREATE TABLE shopping_cart (
 );
 select * from shopping_cart
 
-drop table shopping_cart
 
 INSERT INTO categories (name_) VALUES
     ('Electronics'),
